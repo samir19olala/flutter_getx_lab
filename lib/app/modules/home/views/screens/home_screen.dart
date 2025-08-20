@@ -23,11 +23,11 @@ class HomeScreen extends GetView<HomeScreenController> {
                   children: [
                     Text(
                       "Patisserie",
-                      style: TextStyle(fontSize: 25, fontWeight: FontWeight.w900),
+                      style: TextStyle(fontSize: 25.w, fontWeight: FontWeight.w900),
                     ),
                     Text(
                       "decouvrer nos patisseries",
-                      style: TextStyle(fontSize: 12, fontWeight: FontWeight.w900),
+                      style: TextStyle(fontSize: 12.w, fontWeight: FontWeight.w900),
                     ),
                     const SizedBox(height: 20),
                     Obx(
