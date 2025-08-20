@@ -1,7 +1,5 @@
 import 'package:get/get.dart';
 
-import '../modules/animationV1/bindings/animation_v1_binding.dart';
-import '../modules/animationV1/views/animation_v1_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/page_view/bindings/page_view_binding.dart';
@@ -19,11 +17,6 @@ class AppPages {
       name: _Paths.HOME,
       page: () => const HomeView(),
       binding: HomeBinding(),
-    ),
-    GetPage(
-      name: _Paths.ANIMATION_V1,
-      page: () => const AnimationV1View(),
-      binding: AnimationV1Binding(),
     ),
     GetPage(
       name: _Paths.PAGE_VIEW,

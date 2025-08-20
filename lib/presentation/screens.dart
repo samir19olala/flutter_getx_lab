@@ -1,1 +1,0 @@
-export 'package:flutter_getx_lab/presentation/home/home.screen.dart';

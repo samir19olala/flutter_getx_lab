@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/state_manager.dart';
 
-class ProfileScreen extends StatelessWidget {
+class ProfileScreen extends GetView {
   const ProfileScreen({super.key});
 
   @override
